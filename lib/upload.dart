@@ -35,6 +35,7 @@ class _UploadState extends State<Upload> {
                   'user': 'Jeon'
                 },
               );
+              Navigator.pop(context);
             }, icon: Icon(Icons.upload))
           ],
         ),

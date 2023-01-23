@@ -44,8 +44,8 @@ class _homeState extends State<home> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         widget.result2[i]['image'].runtimeType == String
-                            ? Image.network(widget.result2[i]['image'])
-                            : Image.file(widget.result2[i]['image']),
+                            ? Image.network(widget.result2[i]['image'],width:double.infinity,height: 500,fit: BoxFit.cover)
+                            : Image.file(widget.result2[i]['image'], width:double.infinity, height: 500, fit: BoxFit.cover),
                         Container(
                           margin: EdgeInsets.all(10),
                           padding: EdgeInsets.all(5),
