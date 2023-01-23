@@ -1,4 +1,4 @@
-name: untitled
+name: instagram
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -31,6 +31,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.4
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -53,6 +54,8 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - asset/images/
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
