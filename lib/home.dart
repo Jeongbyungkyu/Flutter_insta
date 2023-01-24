@@ -43,6 +43,7 @@ class _homeState extends State<home> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        //이미지표시기능
                         widget.result2[i]['image'].runtimeType == String
                             ? Image.network(widget.result2[i]['image'],width:double.infinity,height: 500,fit: BoxFit.cover)
                             : Image.file(widget.result2[i]['image'], width:double.infinity, height: 500, fit: BoxFit.cover),
